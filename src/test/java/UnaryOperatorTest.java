@@ -4,12 +4,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Test-case for operator precedence.
+ * Test-case for unary operator precedence.
  *
  * @author <a href="mailto:jhunovis@gmail.com">Jan Hackel</a>
  * @version $Revision$ $Date$ $Author$
  */
-public class OperatorTest {
+public class UnaryOperatorTest {
 
     @Test
     public void testUnaryOperatorPrecedence_PostShouldHavePrecedenceOverPreOperators_1() throws Exception {
